@@ -44,3 +44,65 @@ body{
     font-size: 16px;
     font-weight: medium;
 }
+.banner-section{
+    max-width: 1600px;
+    /* height:674px; */
+    background-image:url(./assets/hero-bg.png);
+    background-repeat:no-repeat;
+    padding:115px 120px 179px;
+}
+.banner-container {
+    text-align:center;
+    max-width: 1140px;
+    /* margin:0 auto; */
+}
+
+.banner-button .btn1{
+    max-width: 229px;
+    color:#276941;
+    background-color:#FFFFFF;
+    padding:8px 12px;
+    border:none;
+    border-radius:30px;
+    margin-bottom:16px;
+}
+
+.banner-heading {
+    color:#FFFFFF;
+         margin-bottom:16px;
+       font-size:40px;
+       word-spacing: 1px;
+}
+
+.banner-container .banner-description{
+font-size:18px;
+line-height:24px;
+color:#FFFFFF;
+margin-bottom: 32px;
+}
+.banner-button1 {
+    display:flex;
+    gap:16px;
+    justify-content:center;
+   max-width: 465px;
+   margin:0 auto;
+}
+.banner-button1  .btn2 button{
+ color:#FFFFFF;
+ max-width:251px;
+ font-size:16px;
+ padding:16px;
+ font-weight:600;
+ border:none;
+ border-radius:5px;
+ 
+}
+.banner-button1  .btn3 button{
+    color:#FFFFFF;
+ max-width:220px;
+ font-size:16px;
+ padding:16px;
+ font-weight:600;
+background-color: transparent;
+border:1px solid #FFFFFF;
+}
