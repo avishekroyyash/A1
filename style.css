@@ -1,0 +1,46 @@
+/* share style */
+.btn{
+    color:#FFFFFF;
+    background-color: #469165;
+    font-size:16px;
+    font-weight: 600;
+    padding:12px 16px;
+    border: none;
+    border-radius:5px;
+}
+
+
+
+/* main style */
+body{
+    margin:0;
+    padding:0;
+}
+.main-nav{
+    max-width:1600px;
+    background-color:#FFFFFF;
+    padding:0px 120px;
+}
+.parent-main-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parent-main-nav .nav-logo {
+    max-width:139px;
+    height: 60px;
+}
+.nav-alliment ul{
+    display:flex;
+    gap:32px;
+}
+.nav-alliment li{
+    list-style: none;
+}
+.nav-alliment a{
+    text-decoration: none;
+    color:#000000;
+    line-height: 152%;
+    font-size: 16px;
+    font-weight: medium;
+}
