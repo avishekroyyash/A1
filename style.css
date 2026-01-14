@@ -20,6 +20,7 @@ body{
     max-width:1600px;
     background-color:#FFFFFF;
     padding:0px 120px;
+    margin: 0 auto;
 }
 .parent-main-nav{
     display:flex;
@@ -50,6 +51,7 @@ body{
     background-image:url(./assets/hero-bg.png);
     background-repeat:no-repeat;
     padding:115px 120px 179px;
+    margin:0 auto;
 }
 .banner-container {
     text-align:center;
@@ -105,4 +107,62 @@ margin-bottom: 32px;
  font-weight:600;
 background-color: transparent;
 border:1px solid #FFFFFF;
+}
+.main-container{
+ max-width: 1340px;
+ margin:0 auto;
+}
+
+ .main-container h2{
+     color:#001931;
+     text-align: center;
+    font-size:48px;
+    font-weight:bold;
+    margin-bottom:16px;
+ }
+.main-container p{
+color:#627382;
+font-size:16px;
+text-align: center;
+margin-bottom:44px;
+}
+.parent-card{
+    display:flex;
+    gap:24px;
+    justify-content: space-between;
+    
+     align-items: center;
+    
+}
+.card{
+     text-align: center;
+    max-width: 322px;
+    max-height: 300px;
+    margin:0 auto;
+    border:none;
+    background-color:#FFFFFF;
+     padding:24px;
+     border:2px solid #d6d2d26c;
+     border-radius:5px;
+
+}
+.card img{
+    height:32px;
+    width:32px;
+    padding:20px;
+    background-color:#F95555;
+    border-radius:50%;
+    margin-bottom:16px;
+}
+.card h4{
+    color:#001931;
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:16px;
+    max-width:274px;
+}
+.card p{
+font-size:16px;
+color:#627382;
+line-height:20px;
 }
