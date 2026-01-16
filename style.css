@@ -12,8 +12,11 @@
     padding:12px 16px;
     border: none;
     border-radius:5px;
+    cursor:pointer;
 }
-
+.btn:hover{
+    background-color:#276941;
+}
 
 
 /* main style */
@@ -57,6 +60,7 @@ body{
     background-repeat:no-repeat;
     padding:115px 120px 179px;
     margin:0 auto;
+
 }
 .banner-container {
     text-align:center;
@@ -72,6 +76,12 @@ body{
     border:none;
     border-radius:30px;
     margin-bottom:16px;
+    cursor:pointer;
+}
+.btn1:hover{
+    background-color: #276941;
+    color:#F7F6F2;
+    border-radius:30px;
 }
 
 .banner-heading {
@@ -96,12 +106,19 @@ margin-bottom: 32px;
 }
 .banner-button1  .btn2 button{
  color:#FFFFFF;
+ background-color: #469165;
  max-width:251px;
  font-size:16px;
  padding:16px;
  font-weight:600;
  border:none;
  border-radius:5px;
+ cursor:pointer;
+}
+.btn2 button:hover{
+     background-color: #0fdf7a;
+    color:#F7F6F2;
+     border-radius:5px;
 }
 .banner-button1  .btn3 button{
     color:#FFFFFF;
@@ -111,7 +128,11 @@ margin-bottom: 32px;
  font-weight:600;
 background-color: transparent;
 border:1px solid #FFFFFF;
+cursor:pointer;
 }
+.btn3 button:hover{
+     background-color: #0fdf7a;
+        color:#F7F6F2;}
 .main-container{
  max-width: 1340px;
  margin:0 auto;
@@ -123,6 +144,7 @@ border:1px solid #FFFFFF;
     font-size:48px;
     font-weight:bold;
     margin-bottom:16px;
+    margin-top:30px;
  }
 .main-container p{
 color:#627382;
@@ -253,7 +275,11 @@ margin:0 auto;
    border-radius:2px;
    box-shadow:-10px 10px #797a7a0e;
    margin-bottom:16px;
+   cursor:pointer;
 }
+.early-excess-element button:hover{
+     background-color: #0fdf7a;
+        color:#F7F6F2;}
 .thumbel-all{
   max-width:1600px;
     max-height: 348px;
