@@ -172,9 +172,9 @@ margin-bottom:44px;
 
 }
 .card img{
-    height:32px;
-    width:32px;
-    padding:20px;
+    height:50px;
+    width:50px;
+    padding: 10px;-------+-------------------+--px;
     background-color:#F95555;
     border-radius:50%;
     margin-bottom:16px;
