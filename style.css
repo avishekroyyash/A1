@@ -2,6 +2,16 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
+}
+.home{
+    color:#140505b5;
+    font-size:20px;
+    max-width:1600px;
+    margin:0 auto;
+}
+.home:hover{
+    color:blueviolet;
 }
 /* share style */
 .btn{
@@ -164,17 +174,16 @@ margin-bottom:44px;
     max-width: 322px;
     max-height: 300px;
     margin:0 auto;
-    border:none;
     background-color:#FFFFFF;
      padding:24px;
-     border:2px solid #d6d2d26c;
+     border:1px solid #d6d2d26c;
      border-radius:5px;
 
 }
 .card img{
     height:50px;
     width:50px;
-    padding: 10px;-------+-------------------+--px;
+    padding: 10px;
     background-color:#F95555;
     border-radius:50%;
     margin-bottom:16px;
@@ -300,6 +309,9 @@ margin:0 auto;
 max-width: 139px;
 max-height: 60px;
 }
+/* .social-link a:hover{
+    background-color: #0fdf7a;
+} */
 .thumbel-social-link p{
     color:#FFFFFF;
     font-size:20px;
